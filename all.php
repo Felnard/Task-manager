@@ -103,7 +103,7 @@ $updateProgress = "UPDATE task SET progress = ";
         <div class="d-flex align-items-center">
     <img src="<?php echo "images\\".$showImage[0]["profilepic"]?>"><h2 class="d-block">Hello,<span class="text-primary"><?php echo $showName[0]['email'];?></span></h2>
       </div>
-      <form method="POST" action="A.php"><a href="" class="text-decoration-none">Logout<i class="fas fa-sign-out-alt"></i></a> <button class="bg-danger border-0 text-white rounded-pill" type="submit" value="" name="editprofile">Edit profile</button></form> 
+      <form method="POST" action="editprofile.php"><a href="" class="text-decoration-none">Logout<i class="fas fa-sign-out-alt"></i></a> <button class="bg-danger border-0 text-white rounded-pill" type="submit" value="" name="editprofile">Edit profile</button></form> 
     </nav>
 
       <!-- NAVBAR SAGILID -->

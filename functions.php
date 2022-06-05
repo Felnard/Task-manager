@@ -186,7 +186,7 @@ function taskPerDay(){
     return $link;
   }
   $link;
-  $una = suAbstr($link, 0, 25);
+  $una = substr($link, 0, 25);
   
   $result = $una.'embed/'.substr($link, 25);
   return $result ;
