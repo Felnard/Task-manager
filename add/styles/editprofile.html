@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="editprofile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="right">
+        <form action="#">
+          <h1>Edit Profile</h1>
+          <div class="photo">
+            <img src="background.jpg" alt="" />
+          </div>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
+
+          <br /><br /><input type="file" name="photo" required /><br /><br />
+
+          <input
+            type="password"
+            name="password"
+            placeholder="Old Password"
+            required
+          />
+          <br /><br />
+          <input
+            type="password"
+            name="password"
+            placeholder="New Password"
+            required
+          />
+
+          <input type="button" value="Save" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-image: url("background.jpg");
+}
+
+:root {
+  --gray: hsl(246, 25%, 77%);
+}
+
+main.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  gap: 50px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  min-width: 600px;
+}
+.right h1 {
+  padding: 1rem;
+
+  font-weight: 700;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  font-size: 2rem;
+}
+form {
+  background-color: white;
+  border-radius: 10px;
+  width: 600px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 3rem;
+  max-height: 1000px;
+  font-size: 1rem;
+}
+form input {
+  width: 90%;
+  padding: 0.8rem;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid var(--gray);
+  font-size: 1.4rem;
+}
+form input:focus {
+  outline: 1px solid var(--black);
+}
+button {
+  width: 90%;
+  background-color: #dc3545;
+  padding: 1rem;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.right input[type="file"] {
+  font-size: 1rem;
+}
+.right input[type="color"] {
+  height: 50px;
+}
+
+.photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid var(--gray);
+}
+.photo img:hover {
+  cursor: pointer;
+}
